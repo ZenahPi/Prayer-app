@@ -1,0 +1,236 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #ff5722;
+  color: white;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+
+  h1 {
+    font-size: 12px;
+  }
+}
+
+.container-fluid {
+  padding: 3% 10% 7%;
+}
+
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 4.0rem;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.3rem;
+  margin: 8% 3%
+}
+
+h3 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.5rem;
+  margin: 15% 3%;
+}
+
+h4 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 1.8rem;
+  color: white;
+  margin: 15% 3%;
+}
+
+h5 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  color: #00adb5;
+  font-size: 3.5rem;
+  margin: 5% 3% 5%;
+}
+
+h6 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+p {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.75rem;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  right: 20%;
+}
+
+/* Features */
+#features {
+  padding: 5% 15%;
+  background-color: white;
+}
+
+.feature-box {
+  text-align: center;
+  background-color: white;
+  padding: 5%
+}
+
+.icon {
+  color: #00adb5
+}
+
+.icon:hover {
+  color: #ff5722
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #00adb5;
+  color: white;
+}
+
+.testimonial-image {
+  width: 18%;
+  float: none;
+  margin: 50px 0;
+  border-radius: 50%
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+.caption {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.location {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+/* Large border */
+hr {
+  color: white;
+}
+
+/* Press section */
+#press {
+  padding: 5% 5%;
+  text-align: center;
+  background-color: white;
+}
+
+.press-image {
+  width: 17%;
+  margin: 50px 50px 50px;
+}
+
+/* Function */
+#function {
+  background-color: #ff5722;
+  text-align: center;
+}
+
+.benefits {
+  color: white;
+}
+
+.benefits:hover {
+  color: #303841;
+}
+
+/* Pricing */
+#pricing {
+  padding: 20px;
+  text-align: center;
+}
+
+.price-description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding: 3% 2%;
+}
+
+.pricing-column {
+  padding: 5% 2%;
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ff5722;
+  color: white;
+  text-align: center;
+}
+
+.warrior {
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+}
+
+.download-button2 {
+  margin: 5% 3% 5% 3%;
+}
+
+#footer {}
+
+.socials {
+  text-align: center;
+}
+
+.socials-icon {
+  margin: 5% 3% 5% 3%;
+}
+
+.socials-icon:hover {
+  color: #ff5722;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #ff5722;
+}
